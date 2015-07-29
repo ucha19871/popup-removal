@@ -1,6 +1,6 @@
 (function( $ ) {
 
-    var ads = ['forads','parent_popup','ad_overlay'];
+    var ads = ['forads','parent_popup','ad_overlay','toPopup','modFBpopup'];
 
     setTimeout( function() {
         $.each(ads, function( index, value ) {
@@ -14,4 +14,3 @@
     },200);
 
 })( jQuery );
-
