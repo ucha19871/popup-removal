@@ -1,6 +1,6 @@
 (function( $ ) {
     $.ajax({
-        url: 'param.json',
+        url: 'https://raw.githubusercontent.com/ucha19871/popup-removal/master/param.json',
         dataType:'json',
         type:'get',
         success: function (data) {
